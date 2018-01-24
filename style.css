@@ -1,0 +1,12 @@
+*{
+  background : black;
+  color : rgba(255, 255, 255, 0.651);
+}
+
+#form-wrapper{
+
+  margin-top:50%;
+  margin-left: 50%;
+  transform: translate(-50%,-50%);
+
+}
