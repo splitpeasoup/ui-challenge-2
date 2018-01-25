@@ -1,12 +1,25 @@
-*{
+html,body{
+  margin:0;
+  height:100%;
+  min-height:100%;
   background : black;
   color : rgba(255, 255, 255, 0.651);
 }
 
 #form-wrapper{
-
+  height: 100%;
+  width: 500px;
   margin-top:50%;
   margin-left: 50%;
   transform: translate(-50%,-50%);
 
+}
+
+label,input {
+  display: block;
+  margin-bottom: 15%;
+}
+
+input[type=radio],input[type=checkbox]{
+  display:none;
 }
