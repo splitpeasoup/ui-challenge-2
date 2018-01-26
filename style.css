@@ -20,7 +20,7 @@ label,input {
   margin-bottom: 15px;
 }
 
-input[type=radio],input[type=checkbox], select{
+/* input[type=radio],input[type=checkbox]{
   display:none;
 }
 
@@ -52,20 +52,8 @@ input[type=radio]{
     background-position: -30px; 
    
     }
-    select{
-      -webkit-appearance: none;
-      display:block;
-      cursor: pointer; 
-      outline: 0; 
-      width:30px;
-      height: 30px;
-      background: url('spritesheet/spritesheet.png');
-      background-size: 300px;
-      background-repeat: no-repeat;	
-      background-position: -230px;
 
-    }
 
     input[type=radio]:checked {background-position:-168px;}
 
-    input[type=checkbox]:checked {background-position:-80px;}
+    input[type=checkbox]:checked {background-position:-80px;} */

@@ -1,14 +1,29 @@
 'use strict'
 
+
 $(document).ready(function(){
 
   $('#radio').css('display','none');
   $('#check').css('display','none');
 
+
   $('#radio').css('-webkit-appearance','none');
   $('#radio').css('display','block');
   $('#radio').css('width','35px');
-  $('#radio').css('height','35px');
+  $('#radio').css('height','35px');  
+  $('#radio').css({'background-image':'url("'+'spritesheet/spritesheet.png'+'")'});
+  $('#radio').css('background-size','300px'); 
+  $('#radio').css('background','no-repeat');
+  $('#radio').css('background-position','-120px');  
+
+  $('#check').css('display','block');
+  $('#check').css('width','35px');
+  $('#check').css('height','35px');  
+  $('#check').css('background-image','url("spritesheet/spritesheet.png")');
+  $('#check').css('background-size','300px'); 
+  $('#check').css('background','no-repeat');
+  $('#check').css('background-position','-30px');  
+  
   
 
   $('#check').click(function(){
@@ -24,7 +39,7 @@ $(document).ready(function(){
   });
 
 
-}
+});
 
 
 // function createDropDown(){
